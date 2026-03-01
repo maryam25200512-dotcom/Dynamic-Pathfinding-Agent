@@ -268,3 +268,4 @@ if __name__ == "__main__":
     app = PathfindingGUI(root, rows, cols, start, goal, obstacles, algo, heuristic_func)
 
     root.mainloop()
+
