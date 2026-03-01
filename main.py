@@ -266,4 +266,5 @@ if __name__ == "__main__":
     print("Dynamic Pathfinding Loading..")
     root = tk.Tk()
     app = PathfindingGUI(root, rows, cols, start, goal, obstacles, algo, heuristic_func)
+
     root.mainloop()
